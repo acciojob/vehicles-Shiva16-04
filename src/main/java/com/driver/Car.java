@@ -22,6 +22,14 @@ public class Car extends Vehicle {
 
     }
 
+    public boolean isManual() {
+        return isManual;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
     public int getWheels(){
         return this.wheels;
     }
