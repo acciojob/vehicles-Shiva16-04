@@ -18,12 +18,13 @@ public class Vehicle {
     public String getName() {
         return name;
     }
-    public int getCurrentSpeed(){
-        return this.currentSpeed;
-    }
 
     public void setCurrentSpeed(int currentSpeed) {
         this.currentSpeed = currentSpeed;
+    }
+
+    public int getCurrentSpeed() {
+        return currentSpeed;
     }
 
     public void setCurrentDirection(int currentDirection) {
